@@ -1,0 +1,17 @@
+.cloudmsg-backlink-widget img {
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+
+  -webkit-transition: all 0.2s ease-out; 
+          transition: all 0.2s ease-out; 
+}
+.cloudmsg-backlink-widget img:hover {
+  margin-top: -5px;
+  padding-bottom: 5px;
+}
+.cloudmsg-backlink-widget p>a {
+  -webkit-transition: all 0.2s ease-out; 
+          transition: all 0.2s ease-out; 
+}
