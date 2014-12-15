@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Cloud MSG Backlink Widget
+ * Plugin Name: Cloud MSG Backlink
  * Plugin URI: http://www.cloudmsg.com
  * Description: This plugin is a widget that shows a backlink to cloudmsg.com
  * Version: 1.0
@@ -77,12 +77,12 @@ class cloudmsg_backlink extends WP_Widget {
 
     switch ($instance['select']) {
       case 'Image':
-        ?><a alt="Cloud Managed Services Group, Inc." href="http://www.cloudmsg.com" target="_blank"><img src="<?php echo plugins_url('logo.png', __FILE__); ?>" alt="Cloud Managed Services Group, Inc."></a><?php
+        ?><a href="http://www.cloudmsg.com" target="_blank"><img src="<?php echo plugins_url('logo.png', __FILE__); ?>" alt="Powered By Cloud Managed Services Group, Inc."></a><?php
         break;
 
       case 'Text':
       default:
-        ?><p>Powered by <a alt="Cloud Managed Services Group, Inc." href="http://www.cloudmsg.com" target="_blank">Cloud Managed Services Group, Inc.</a></p><?php
+        ?><p>Powered by <a href="http://www.cloudmsg.com" target="_blank">Cloud Managed Services Group, Inc.</a></p><?php
         break;
     }
 
