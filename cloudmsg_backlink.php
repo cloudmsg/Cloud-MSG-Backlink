@@ -9,7 +9,7 @@
  * Text Domain: cloudmsg
  * Network: true
  * License: GPL2
- * GitHub Plugin URI: oldtimeguitarguy/Cloud-MSG-Backlink
+ * GitHub Plugin URI: cloudmsg/Cloud-MSG-Backlink
  */
 
 /*  Copyright 2014  Karl Hepler  (email : karl.hepler@gmail.com)
