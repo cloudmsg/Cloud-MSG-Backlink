@@ -9,6 +9,7 @@
  * Text Domain: cloudmsg
  * Network: true
  * License: GPL2
+ * GitHub Plugin URI: oldtimeguitarguy/Cloud-MSG-Backlink
  */
 
 /*  Copyright 2014  Karl Hepler  (email : karl.hepler@gmail.com)
@@ -81,7 +82,7 @@ class cloudmsg_backlink extends WP_Widget {
 
       case 'Text':
       default:
-        ?><p>Website by <a alt="Cloud Managed Services Group, Inc." href="http://www.cloudmsg.com" target="_blank">Cloud Managed Services Group, Inc.</a></p><?php
+        ?><p>Powered by <a alt="Cloud Managed Services Group, Inc." href="http://www.cloudmsg.com" target="_blank">Cloud Managed Services Group, Inc.</a></p><?php
         break;
     }
 
