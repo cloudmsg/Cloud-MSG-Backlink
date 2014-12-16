@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Cloud MSG Backlink
- * Plugin URI: http://www.cloudmsg.com
+ * Plugin URI: https://www.github.com/cloudmsg/Cloud-MSG-Backlink
  * Description: This plugin puts "Powered by CloudMSG in the footer - backlink"
  * Version: 1.1.1
  * Author: Karl Hepler
