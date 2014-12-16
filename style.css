@@ -1,17 +1,24 @@
-.cloudmsg-backlink-widget img {
-  box-shadow: none;
-  border: none;
-  border-radius: 0;
+.cloudmsg-backlink {
   width: 100%;
-
-  -webkit-transition: all 0.2s ease-out; 
-          transition: all 0.2s ease-out; 
+  padding: 0;
+  margin: 0;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  text-align: right;
+  background: darkslategrey;
+  color: lightslategrey;
+  left: 0;
+  font-size: 10px;
 }
-.cloudmsg-backlink-widget img:hover {
-  margin-top: -5px;
-  padding-bottom: 5px;
+.cloudmsg-backlink p {
+  padding: 5px;
 }
-.cloudmsg-backlink-widget p>a {
-  -webkit-transition: all 0.2s ease-out; 
-          transition: all 0.2s ease-out; 
+.cloudmsg-backlink a {
+  color: lightslategrey;
+  text-decoration: none;
+}
+.cloudmsg-backlink a:hover {
+  text-decoration: none;
+  color: white;
 }
