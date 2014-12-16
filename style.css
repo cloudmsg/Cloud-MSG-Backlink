@@ -3,7 +3,7 @@
   padding: 5px;
   margin: 0;
   border: none;
-  position: absolute;
+  position: relative;
   bottom: 0;
   text-align: right;
   background: darkgrey;
@@ -12,6 +12,7 @@
   font-size: 10px;
   height: 25px;
   box-sizing: border-box;
+  margin-top: 50px;
 }
 .cloudmsg-backlink a {
   color: lightgrey;
