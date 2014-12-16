@@ -3,7 +3,7 @@
  * Plugin Name: Cloud MSG Backlink
  * Plugin URI: https://www.github.com/cloudmsg/Cloud-MSG-Backlink
  * Description: This plugin puts "Powered by CloudMSG in the footer - backlink"
- * Version: 1.1.1
+ * Version: 1.1.2
  * Author: Karl Hepler
  * Author URI: http://www.karlhepler.com
  * Text Domain: cloudmsg
@@ -33,7 +33,7 @@ function powered_by_cloudmsg() {
   wp_enqueue_style( 'cloudmsg_backlink-style', plugins_url('style.css', __FILE__) );
 
   ?>
-  <div class="cloudmsg-backlink"><p>Powered By <a href="http://www.cloudmsg.com" target="_blank">Cloud Managed Services Group, Inc.</a></p></div>
+  <div class="cloudmsg-backlink">Powered By <a href="http://www.cloudmsg.com" target="_blank">Cloud Managed Services Group, Inc.</a></div>
   <?php
 }
 add_action('wp_footer', 'powered_by_cloudmsg');
