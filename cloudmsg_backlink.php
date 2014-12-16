@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Cloud MSG Backlink
  * Plugin URI: http://www.cloudmsg.com
- * Description: This plugin is a widget that shows a backlink to cloudmsg.com
- * Version: 1.1
+ * Description: This plugin puts "Powered by CloudMSG in the footer - backlink"
+ * Version: 1.1.1
  * Author: Karl Hepler
  * Author URI: http://www.karlhepler.com
  * Text Domain: cloudmsg
